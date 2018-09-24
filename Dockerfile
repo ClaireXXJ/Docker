@@ -59,4 +59,5 @@ if __name__ == "__main__":
 3. >> pip install -r requirements.txt  ##install the Flask and Redis for python
    >> docker build -t friendlyhello . ##create Docker image and can check its location with
                                         >> docker image ls
-
+4. run the app. >>docker run -p 4000:80 friendlyhello
+                   ##coming from the inside the container 80 is the port the container port 4000 mapped to.
